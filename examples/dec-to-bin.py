@@ -22,7 +22,7 @@ def custom_dec2bin(dec_in,digit_in):
 def generate_bin_table(dec_in,digit_in):
     table_out =[]
     for i in range(0,dec_in+1):
-        print(custom_dec2bin(i,digit_in))
+        table_out.append(custom_dec2bin(i,digit_in))
     return table_out
 
 def check_input(dec_in,digit_in):
