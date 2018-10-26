@@ -1,13 +1,44 @@
+# custom for decimal-to-binary conversion
+
+def print_binary(dec_in,digit_in):
+    bin_in = bin(dec_in)
+    biner_length = len(bin_in[2:]) # length of binary output without prefix 0b
+    bin_out = bin(dec_in)
+    print('Length of binary output =', biner_length)
+    print('Binary number of',dec_in,'(use prefix 0b)     =', bin_out) # binary output use prefix 0b
+    print('Binary number of',dec_in,'(without prefix 0b) =', bin_out[2:]) # binary output without prefix 0b
+    return
+
+def custom_dec2bin(dec_in,digit_in):
+    bin_in = bin(dec_in)
+    biner_length = len(bin_in[2:]) # length of binary output without prefix 0b
+    biner_prefix = ''
+    if biner_length < digit_in:
+        for i in range(0,digit_in-biner_length):
+            biner_prefix = biner_prefix + '0'
+    bin_out = biner_prefix + bin_in[2:] # binary output without prefix 0b
+    return bin_out
+
+def generate_bin_table(dec_in,digit_in):
+    table_out =[]
+    for i in range(0,dec_in+1):
+        print(custom_dec2bin(i,digit_in))
+    return table_out
+
+def check_input(dec_in,digit_in):
+    bin_in = bin(dec_in)
+    bin_len = len(bin_in[2:])
+    while digit_in < bin_len:
+        digit_in = int(input('Digit number: '))
+    decimal_out = dec_in
+    digit_out = digit_in
+    return decimal_out,digit_out
+
 input_number = int(input("Enter decimal number: "))
-output_dec2bin = bin(input_number)
-biner_length = len(output_dec2bin[2:]) # length of binary output without prefix 0b
 digit_number = int(input("Digit number: "))
-while digit_number < biner_length:
-    digit_number = int(input("Digit number: "))
-biner_prefix = ''
-if biner_length < digit_number:
-    for i in range(0,digit_number-biner_length):
-        biner_prefix = biner_prefix + '0'
-print('Length of binary output =', biner_length)
-print('Binary number of',input_number,'(use prefix 0b)     =', biner_prefix+output_dec2bin) # binary output use prefix 0b
-print('Binary number of',input_number,'(without prefix 0b) =', biner_prefix+output_dec2bin[2:]) # binary output without prefix 0b
+valid_in,valid_digit = check_input(input_number,digit_number)
+print()
+print_binary(valid_in,valid_digit)
+print()
+print('Generated Binary Table:')
+generate_bin_table(valid_in,valid_digit)
