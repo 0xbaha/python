@@ -41,4 +41,6 @@ print()
 print_binary(valid_in,valid_digit)
 print()
 print('Generated Binary Table:')
-generate_bin_table(valid_in,valid_digit)
+bin_table = generate_bin_table(valid_in,valid_digit)
+for i in bin_table:
+    print(i)
