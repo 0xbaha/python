@@ -14,19 +14,19 @@ P = [[190,80,46]]
 #{Decision Tree Model}
 clf = DecisionTreeClassifier()
 clf = clf.fit(X,Y)
-print "\n1) Using Decision Tree Prediction is " + str(clf.predict(P))
+print ("\n1) Using Decision Tree Prediction is " + str(clf.predict(P)))
 
 #{K Neighbors Classifier}
 knn = KNeighborsClassifier()
 knn.fit(X,Y)
-print "2) Using K Neighbors Classifier Prediction is " + str(knn.predict(P))
+print ("2) Using K Neighbors Classifier Prediction is " + str(knn.predict(P)))
 
 #{using MLPClassifier}
 mlpc = MLPClassifier()
 mlpc.fit(X,Y)
-print "3) Using MLPC Classifier Prediction is " + str(mlpc.predict(P))
+print ("3) Using MLPC Classifier Prediction is " + str(mlpc.predict(P)))
 
 #{using MLPClassifier}
 rfor = RandomForestClassifier()
 rfor.fit(X,Y)
-print "4) Using RandomForestClassifier Prediction is " + str(rfor.predict(P)) +"\n"
+print ("4) Using RandomForestClassifier Prediction is " + str(rfor.predict(P)) +"\n")
