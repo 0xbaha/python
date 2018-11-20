@@ -11,6 +11,7 @@ if __name__ == '__main__':
     # perform on each input. For example...
     inputs = range(10000000)
     #  removing processes argument makes the code run on all available cores
-    pool = mp.Pool(processes=4)
+    # pool = mp.Pool(processes=4)
+    pool = mp.Pool()
     results = pool.map(processInput, inputs)
     print(results)
