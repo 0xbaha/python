@@ -23,6 +23,10 @@ if __name__ == '__main__':
         processes.append(p)
         p.start()
 
+    # print('processes:')
+    # for i in processes:
+    #     print(i)
+
     for process in processes:
         process.join()
 
