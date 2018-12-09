@@ -13,7 +13,8 @@ dataset = pd.read_csv(path_file)
 # Periksa jumlah kolom
 print('column numbers = %d' % len(dataset.columns)) # 44
 id_col = 0 # Index column
-df = pd.read_csv(path_file,index_col=id_col)
+dataset = pd.read_csv(path_file,index_col=id_col)
+df = pd.DataFrame(dataset)
 print('df:\n',df)
 print('df.dtypes:\n',df.dtypes)
 cat_columns = df.select_dtypes(['object']).columns
