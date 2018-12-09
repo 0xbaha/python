@@ -9,6 +9,9 @@ dir_current = os.getcwd()
 dir_input = 'input'
 filename = 'dataset.csv'
 path_file = os.path.join(dir_current,dir_input,filename)
+dataset = pd.read_csv(path_file)
+# Periksa jumlah kolom
+print('column numbers = %d' % len(dataset.columns)) # 44
 id_col = 0 # Index column
 df = pd.read_csv(path_file,index_col=id_col)
 print('df:\n',df)

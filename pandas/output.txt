@@ -1,3 +1,4 @@
+column numbers = 45
 df:
             dur proto service  ...   is_sm_ips_ports  attack_cat  label
 id                            ...                                     
