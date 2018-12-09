@@ -15,7 +15,11 @@ dataset = pd.read_csv(path_file)
 print('column numbers = %d' % len(dataset.columns)) # 49
 dataset = pd.read_csv(path_file,header=None)
 df = pd.DataFrame(dataset)
-cols = [4,5,6,7]
+cols = [6,4,13,5,16,17,7,8,8,9,
+        10,14,15,11,12,30,31,26,27,18,
+        20,21,19,32,33,34,22,23,24,25,
+        40,36,42,44,45,46,38,39,37,43,
+        41,35,47,48]
 df = df[df.columns[cols]]
 print('df:\n',df)
 print('df.dtypes:\n',df.dtypes)
