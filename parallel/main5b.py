@@ -18,7 +18,7 @@ def multiprocessing_func(x):
 if __name__ == '__main__':
     starttime = time.time()
     processes = []
-    for i in range(0,10):
+    for i in range(0,100):
         p = multiprocessing.Process(target=multiprocessing_func, args=(i,))
         processes.append(p)
         p.start()

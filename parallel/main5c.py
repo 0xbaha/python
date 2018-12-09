@@ -19,6 +19,6 @@ if __name__ == '__main__':
 
     starttime = time.time()
     pool = multiprocessing.Pool()
-    pool.map(multiprocessing_func, range(0,10))
+    pool.map(multiprocessing_func, range(0,100))
     pool.close()
     print('That took {} seconds'.format(time.time() - starttime))
