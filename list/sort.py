@@ -25,8 +25,7 @@ for i in list_x:
     print(i)
 print()
 
-# Mengurutkan list berdasarkan kolom tertentu
-# Kolom ke-0
+# Mengurutkan list berdasarkan kolom ke-0
 def selected_key(elem):
     return elem[0]
 list_x.sort(key=selected_key)
@@ -36,7 +35,7 @@ for i in list_x:
     print(i)
 print()
 
-# Kolom ke-0 dan ke-1
+# Mengurutkan list berdasarkan kolom ke-0 dan ke-1
 def selected_key(elem):
     return elem[0],elem[1]
 list_x.sort(key=selected_key)
@@ -46,7 +45,7 @@ for i in list_x:
     print(i)
 print()
 
-# Kolom ke-0, ke-1, dan ke-2
+# Mengurutkan list berdasarkan kolom ke-0, ke-1, dan ke-2
 def selected_key(elem):
     return elem[0],elem[1],elem[2]
 list_x.sort(key=selected_key)
@@ -56,7 +55,7 @@ for i in list_x:
     print(i)
 print()
 
-# Kolom ke-1
+# Mengurutkan list berdasarkan kolom ke-1
 def selected_key(elem):
     return elem[1]
 list_x.sort(key=selected_key)
@@ -66,7 +65,7 @@ for i in list_x:
     print(i)
 print()
 
-# Kolom ke-2
+# Mengurutkan list berdasarkan kolom ke-2
 def selected_key(elem):
     return elem[2]
 list_x.sort(key=selected_key)
