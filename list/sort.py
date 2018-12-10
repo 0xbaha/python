@@ -75,6 +75,16 @@ for i in list_x:
     print(i)
 print()
 
+# Mengurutkan list berdasarkan kolom ke-2 (reverse=True)
+def selected_key(elem):
+    return elem[2]
+list_x.sort(key=selected_key,reverse=True)
+# Menampilkan isi dari list_x
+print('Hasil sort berdasarkan kolom ke-2 (reverse=True)')
+for i in list_x:
+    print(i)
+print()
+
 ## OUTPUT ##
 # Isi dari list1: [3, 7, 9, 1, 6, 3, 3]
 # Isi dari list2: ['cc', 'bb', 'ee', 'aa', 'dd', 'bb', 'bb']
