@@ -1,6 +1,3 @@
-# referensi:
-# https://solarianprogrammer.com/2017/02/25/install-numpy-scipy-matplotlib-python-3-windows/
-
 import scipy as sp
 import matplotlib.pylab as plt
 

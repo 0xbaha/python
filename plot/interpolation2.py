@@ -1,4 +1,3 @@
-# https://stackoverflow.com/questions/30802688/how-can-i-resample-roc-curve-fpr-tpr
 
 import numpy as np
 import matplotlib.pyplot as plt

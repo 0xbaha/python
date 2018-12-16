@@ -1,4 +1,3 @@
-# https://stackoverflow.com/questions/18973404/setting-different-bar-color-in-matplotlib-python
 
 import matplotlib.pyplot as plt
 

@@ -1,4 +1,3 @@
-# https://python-graph-gallery.com/392-use-faceting-for-radar-chart/
 
 # Libraries
 import matplotlib.pyplot as plt
