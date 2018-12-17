@@ -1,4 +1,3 @@
-# https://medium.com/@urban_institute/using-multiprocessing-to-make-python-code-faster-23ea5ef996ba
 import time
 import multiprocessing
 

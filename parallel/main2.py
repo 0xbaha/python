@@ -1,4 +1,3 @@
-# https://medium.com/apteo/multi-processing-in-python-ee0ce73a459b
 import multiprocessing
 
 def do_something(number):

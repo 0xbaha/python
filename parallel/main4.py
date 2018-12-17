@@ -1,4 +1,3 @@
-# https://stackoverflow.com/questions/33787678/writing-a-parallel-loop
 
 import multiprocessing as mp
 

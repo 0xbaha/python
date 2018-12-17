@@ -1,4 +1,3 @@
-# https://blog.dominodatalab.com/simple-parallelization/
 
 from joblib import Parallel, delayed
 import multiprocessing

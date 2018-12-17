@@ -1,4 +1,3 @@
-# https://sebastianraschka.com/Articles/2014_multiprocessing.html
 import multiprocessing as mp
 import random
 import string
