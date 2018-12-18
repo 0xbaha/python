@@ -1,7 +1,7 @@
 # Learn-PY-ID
 
 ## Author
-Baharuddin Aziz "coding@baha.web.id"
+Baha ID "bahaxid@pm.me"
 
 ## Introduction
 Repository ini berisi kumpulan contoh kode dalam bahasa Python.
