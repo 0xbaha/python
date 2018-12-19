@@ -6,12 +6,12 @@ from math import pi
 
 # Set data
 df = pd.DataFrame({
-'group': ['A','B','C','D'],
-'var1': [38, 1.5, 30, 4],
-'var2': [29, 10, 9, 34],
-'var3': [8, 39, 23, 24],
-'var4': [7, 31, 33, 14],
-'var5': [28, 15, 32, 14]
+'method:': ['proposed','ENS_AdaBoost','ENS_Bagging','ENS_RandomForest'],
+'time': [78.39, 76.80, 78.62, 66.19],
+'accuracy': [88.65,77.25,87.30,87.29],
+'precision': [82.96, 70.90, 82.89, 81.99],
+'recall': [99.91, 99.51, 96.94, 98.57],
+'FAR': [74.86, 49.97, 75.49, 73.48]
 })
 
 # ------- PART 1: Define a function that do a plot for one line of the dataset!
@@ -38,11 +38,11 @@ def make_spider( row, title, color):
 
     # Draw ylabels
     ax.set_rlabel_position(0)
-    plt.yticks([10,20,30], ["10","20","30"], color="grey", size=7)
-    plt.ylim(0,40)
+    plt.yticks([25,50,75], ["","",""], color="grey", size=7)
+    plt.ylim(0,100)
 
     # Ind1
-    values=df.loc[row].drop('group').values.flatten().tolist()
+    values=df.loc[row].drop('method:').values.flatten().tolist()
     values += values[:1]
     ax.plot(angles, values, color=color, linewidth=2, linestyle='solid')
     ax.fill(angles, values, color=color, alpha=0.4)
@@ -60,6 +60,6 @@ my_palette = plt.cm.get_cmap("Set2", len(df.index))
 
 # Loop to plot
 for row in range(0, len(df.index)):
-    make_spider( row=row, title='group '+df['group'][row], color=my_palette(row))
+    make_spider( row=row, title='method: '+df['method:'][row], color=my_palette(row))
 
 plt.show()
