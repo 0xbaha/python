@@ -27,3 +27,9 @@ https://stackoverflow.com/questions/33787678/writing-a-parallel-loop
 https://medium.com/@urban_institute/using-multiprocessing-to-make-python-code-faster-23ea5ef996ba
 https://medium.com/@urban_institute/using-multiprocessing-to-make-python-code-faster-23ea5ef996ba
 https://medium.com/@urban_institute/using-multiprocessing-to-make-python-code-faster-23ea5ef996ba
+
+### Machine Learning
+# http://dataaspirant.com/2017/02/01/decision-tree-algorithm-python-with-scikit-learn/
+https://pythonprogramminglanguage.com/kmeans-clustering-centroid/
+https://pythonprogramminglanguage.com
+https://pythonprogramminglanguage.com/machine-learning-classifier/
