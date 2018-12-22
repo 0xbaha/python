@@ -25,11 +25,13 @@ https://medium.com/apteo/multi-processing-in-python-ee0ce73a459b
 https://blog.dominodatalab.com/simple-parallelization/
 https://stackoverflow.com/questions/33787678/writing-a-parallel-loop
 https://medium.com/@urban_institute/using-multiprocessing-to-make-python-code-faster-23ea5ef996ba
-https://medium.com/@urban_institute/using-multiprocessing-to-make-python-code-faster-23ea5ef996ba
-https://medium.com/@urban_institute/using-multiprocessing-to-make-python-code-faster-23ea5ef996ba
 
 ### Machine Learning
-# http://dataaspirant.com/2017/02/01/decision-tree-algorithm-python-with-scikit-learn/
+http://dataaspirant.com/2017/02/01/decision-tree-algorithm-python-with-scikit-learn/
 https://pythonprogramminglanguage.com/kmeans-clustering-centroid/
 https://pythonprogramminglanguage.com
 https://pythonprogramminglanguage.com/machine-learning-classifier/
+
+### List
+https://stackoverflow.com/questions/312443/how-do-you-split-a-list-into-evenly-sized-chunks https://stackoverflow.com/questions/176918/finding-the-index-of-an-item-given-a-list-containing-it-in-python#17202481
+https://www.programiz.com/python-programming/methods/list/sort

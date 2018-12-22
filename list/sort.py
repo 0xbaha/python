@@ -1,4 +1,3 @@
-# https://www.programiz.com/python-programming/methods/list/sort
 
 # Mendefinisikan isi list
 list1 = [3, 7, 9, 1, 6, 3, 3]

@@ -1,5 +1,4 @@
 # Finding the index of an item given a list containing it in Python
-# https://stackoverflow.com/questions/176918/finding-the-index-of-an-item-given-a-list-containing-it-in-python#17202481
 
 # used for list_3
 from functools import reduce
