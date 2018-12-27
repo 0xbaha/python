@@ -7,7 +7,7 @@ from math import pi
 df = pd.DataFrame({
 'method': ['proposed_v1','ENS_Bagging_v1','Tree_DecisionTree_v1'],
 'time': [57.7,67.29,95.71],
-'accuracy': [88.65,87.3,84.88],
+'acc': [88.65,87.3,84.88],
 'precision': [82.96,82.89,80.59],
 'recall': [99.91,96.94,95.56],
 'FAR': [74.86,75.49,71.8]
@@ -79,5 +79,6 @@ for i,j in enumerate(methods):
 
     # Save plot to file
     figname = '%s.svg' % title
+    plt.tight_layout(pad=0.5) # Agar margin kecil
     plt.savefig(figname)
     plt.clf()
