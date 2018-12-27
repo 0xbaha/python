@@ -6,21 +6,23 @@ from math import pi
 # Set data A
 df = pd.DataFrame({
 'method': ['proposed_v1','ENS_Bagging_v1','Tree_DecisionTree_v1'],
-'time': [57.7,67.29,95.71],
 'acc': [88.65,87.3,84.88],
 'precision': [82.96,82.89,80.59],
 'recall': [99.91,96.94,95.56],
-'FAR': [74.86,75.49,71.8]
+'FAR': [74.86,75.49,71.8],
+'FP': [88.7,88.98,87.33],
+'FN': [99.95,98.31,97.56]
 })
 
 # Set data B
-# df = pd.DataFrame({
+df = pd.DataFrame({
 # 'method': ['proposed_v2','ENS_Bagging_v2','Tree_DecisionTree_v2'],
-# 'time': [56.27,75.1,95.82],
 # 'accuracy': [91.93,87.02,85.93],
 # 'precision': [87.29,82.86,82.1],
 # 'recall': [99.88,96.37,95.19],
-# 'FAR': [82.18,75.58,74.57]
+# 'FAR': [82.18,75.58,74.57],
+# 'FP': [91.99,89.02,88.57],
+# 'FN': 99.93,98,97.35]
 # })
 
 # list of methods
