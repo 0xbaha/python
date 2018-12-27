@@ -63,7 +63,6 @@ ax.fill(angles, values, color='green', alpha=0.1)
 # Add a title
 plt.title(title, size=11, color='black', y=1.1)
 
-# fig_snr = '0'
-# figname = values[0]
-# plt.savefig(figname)
-plt.show()
+# Save plot to file
+figname = '%s.svg' % title
+plt.savefig(figname)
