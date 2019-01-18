@@ -1,7 +1,7 @@
 # Learn-PY-ID
 
 ## Author
-Baha ID "bahaxid@pm.me"
+Baha ID "bahaxid@gmail.com"
 
 ## Introduction
 Repository ini berisi kumpulan contoh kode dalam bahasa Python.
