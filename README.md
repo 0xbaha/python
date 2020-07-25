@@ -1,10 +1,10 @@
-# Learn-PY-ID
+# Catatan Python
 
 ## Author
 Baha ID "bahaxid@gmail.com"
 
 ## Introduction
-Repository ini berisi kumpulan contoh kode dalam bahasa Python.
+Repository ini berisi kumpulan contoh kode dalam bahasa Python untuk pembelajaran dasar pemrograman, aplikasi untuk penggunaan umum, dan mini project.
 
 ## Referensi
 referensi example:
