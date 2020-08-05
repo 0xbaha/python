@@ -14,24 +14,25 @@ download library di:
 https://www.lfd.uci.edu/~gohlke/pythonlibs/
 
 ### plot
-https://stackoverflow.com/questions/18973404/setting-different-bar-color-in-matplotlib-python
-https://stackoverflow.com/questions/30802688/how-can-i-resample-roc-curve-fpr-tpr
-https://solarianprogrammer.com/2017/02/25/install-numpy-scipy-matplotlib-python-3-windows/
-https://python-graph-gallery.com/392-use-faceting-for-radar-chart/
+- [Setting Different Bar color in matplotlib Python](https://stackoverflow.com/questions/18973404/setting-different-bar-color-in-matplotlib-python)
+- [How to resample “roc_curve” (fpr,tpr)?](https://stackoverflow.com/questions/30802688/how-can-i-resample-roc-curve-fpr-tpr)
+- [Install NumPy, SciPy, Matplotlib with Python 3 on Windows](https://solarianprogrammer.com/2017/02/25/install-numpy-scipy-matplotlib-python-3-windows/)
+- [Use faceting for Radar chart](https://python-graph-gallery.com/392-use-faceting-for-radar-chart/)
 
 ### parallel
-https://sebastianraschka.com/Articles/2014_multiprocessing.html
-https://medium.com/apteo/multi-processing-in-python-ee0ce73a459b
-https://blog.dominodatalab.com/simple-parallelization/
-https://stackoverflow.com/questions/33787678/writing-a-parallel-loop
-https://medium.com/@urban_institute/using-multiprocessing-to-make-python-code-faster-23ea5ef996ba
+- [An introduction to parallel programming using Python's multiprocessing module](https://sebastianraschka.com/Articles/2014_multiprocessing.html)
+- [Multi-processing in Python](https://medium.com/apteo/multi-processing-in-python-ee0ce73a459b)
+- [Easy parallel loops in Python, R, Matlab and Octave](https://blog.dominodatalab.com/simple-parallelization/)
+- [Writing a parallel loop](https://stackoverflow.com/questions/33787678/writing-a-parallel-loop)
+- [Using Multiprocessing to Make Python Code Faster](https://medium.com/@urban_institute/using-multiprocessing-to-make-python-code-faster-23ea5ef996ba)
 
 ### Machine Learning
-http://dataaspirant.com/2017/02/01/decision-tree-algorithm-python-with-scikit-learn/
-https://pythonprogramminglanguage.com/kmeans-clustering-centroid/
-https://pythonprogramminglanguage.com
-https://pythonprogramminglanguage.com/machine-learning-classifier/
+- [BUILDING DECISION TREE ALGORITHM IN PYTHON WITH SCIKIT LEARN](http://dataaspirant.com/2017/02/01/decision-tree-algorithm-python-with-scikit-learn/)
+- [kmeans clustering centroid](https://pythonprogramminglanguage.com/kmeans-clustering-centroid/)
+- [Learn Python Programming](https://pythonprogramminglanguage.com)
+- [Machine Learning Classifier](https://pythonprogramminglanguage.com/machine-learning-classifier/)
 
 ### List
-https://stackoverflow.com/questions/312443/how-do-you-split-a-list-into-evenly-sized-chunks https://stackoverflow.com/questions/176918/finding-the-index-of-an-item-given-a-list-containing-it-in-python#17202481
-https://www.programiz.com/python-programming/methods/list/sort
+- [How do you split a list into evenly sized chunks?](https://stackoverflow.com/questions/312443/how-do-you-split-a-list-into-evenly-sized-chunks)
+- [Finding the index of an item in a list](https://stackoverflow.com/a/17202481/4874355)
+- [Python List sort()](https://www.programiz.com/python-programming/methods/list/sort)
