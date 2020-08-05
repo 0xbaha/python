@@ -1,4 +1,8 @@
 # Catatan Python
+![GitHub repo size](https://img.shields.io/github/repo-size/bahaxid/catatan-py)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/bahaxid/catatan-py)
+![GitHub last commit](https://img.shields.io/github/last-commit/bahaxid/catatan-py)
+![GitHub](https://img.shields.io/github/license/bahaxid/catatan-py)
 
 ## Author
 Baha ID "bahaxid@gmail.com"
