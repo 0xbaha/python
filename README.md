@@ -1,8 +1,8 @@
 # Catatan Python
-![GitHub repo size](https://img.shields.io/github/repo-size/bahaxid/catatan-py)
-![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/bahaxid/catatan-py)
-![GitHub last commit](https://img.shields.io/github/last-commit/bahaxid/catatan-py)
-![GitHub](https://img.shields.io/github/license/bahaxid/catatan-py)
+![GitHub repo size](https://img.shields.io/github/repo-size/ace-id/catatan-py)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/ace-id/catatan-py)
+![GitHub last commit](https://img.shields.io/github/last-commit/ace-id/catatan-py)
+![GitHub](https://img.shields.io/github/license/ace-id/catatan-py)
 
 ## Introduction
 Repository ini berisi kumpulan contoh kode dalam bahasa Python untuk pembelajaran dasar pemrograman, aplikasi untuk penggunaan umum, dan mini project.
