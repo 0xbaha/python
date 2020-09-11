@@ -10,3 +10,4 @@
 1. Pandas: Operation
 1. Pandas: Input dan Output
 1. Matplotlib
+1. Matplotlib: Style Plot
