@@ -7,3 +7,4 @@
 1. Pandas: Multiindex
 1. Pandas: Missing Data
 1. Pandas: Penggabungan Data
+1. Pandas: Operation
