@@ -11,3 +11,4 @@
 1. Pandas: Input dan Output
 1. Matplotlib
 1. Matplotlib: Style Plot
+1. Seaborn: Introduction
