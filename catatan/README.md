@@ -1,6 +1,6 @@
 # Daftar Catatan
 
-## Analisa Data Array dengan Numpy
 1. Numpy Array
 1. Indexing & Sorting
-
+1. Pandas Introduction
+1. Dataframe
