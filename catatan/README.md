@@ -1,7 +1,8 @@
 # Daftar Catatan
 
-1. Numpy Array
-1. Indexing & Sorting
-1. Pandas Introduction
-1. Dataframe
-1. Multiindex
+1. Numpy: Array
+1. Numpy: Indexing & Sorting
+1. Pandas: Introduction
+1. Pandas: Dataframe
+1. Pandas: Multiindex
+1. Pandas: Missing Data
