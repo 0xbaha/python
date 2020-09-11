@@ -9,3 +9,4 @@
 1. Pandas: Penggabungan Data
 1. Pandas: Operation
 1. Pandas: Input dan Output
+1. Matplotlib
