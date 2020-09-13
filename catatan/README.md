@@ -16,3 +16,4 @@
 1. Seaborn: Matrix
 1. Seaborn: Grid
 1. Seaborn: Regresi
+1. Machine Learning: Linear Regression
