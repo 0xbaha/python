@@ -13,5 +13,6 @@
 1. Matplotlib: Style Plot
 1. Seaborn: Introduction
 1. Seaborn: Categorical Plot
-1. Seaborn: Metrix
+1. Seaborn: Matrix
 1. Seaborn: Grid
+1. Seaborn: Regresi
