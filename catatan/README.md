@@ -12,3 +12,4 @@
 1. Matplotlib
 1. Matplotlib: Style Plot
 1. Seaborn: Introduction
+1. Seaborn: Categorical Plot
