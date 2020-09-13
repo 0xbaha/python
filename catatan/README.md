@@ -14,3 +14,4 @@
 1. Seaborn: Introduction
 1. Seaborn: Categorical Plot
 1. Seaborn: Metrix
+1. Seaborn: Grid
